@@ -56,7 +56,6 @@ LILYGO®  T-Watch S3 full feature implementation for ESPHome
 ```yaml
 microphone:
   - platform: i2s_audio
-    i2s_audio_id: i2s_in
     bits_per_sample: 16bit
     channel: right
     i2s_din_pin: ${BOARD_MIC_DATA}
@@ -85,7 +84,6 @@ media_player:
     i2s_dout_pin:
       number: ${BOARD_DAC_IIS_DOUT}
       ignore_strapping_warning: true
-    i2s_audio_id: i2s_out
     dac_type: external
     mode: mono
     i2s_comm_fmt: msb
@@ -175,8 +173,8 @@ remote_transmitter:
 ```
 </details>
 
-- [x] dynamic implementation to send any code from one `text` input
-- [x] **ESPHome** implementation of *[tvbgone](https://github.com/search?q=tvbgone)*
+- [x] dynamic implementation to send *any* `remote_transmitter` protocol from one `text` input
+- [x] **ESPHome** implementation of **[tv-b-gone](https://github.com/search?q=tv-b-gone)**
 
 
 
@@ -331,6 +329,8 @@ drv2605:
 </details>
 
 </details>
+
+***
 
 ### Ready-made `display` `pages`
 
