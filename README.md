@@ -46,7 +46,7 @@ LILYGO®  T-Watch S3 full feature implementation for ESPHome
 
 ## Features
 
-> [!NOTE]
+> [!TIP]
 > Use all the devices capabilities that it is supposed to do with factory software.
 
 #### Microphone
@@ -356,9 +356,11 @@ drv2605:
 ***
 
 ##  Screenshot Web Server
-See and share what's on your display. 🦄
-- [x] Like an `esp32_camera web_server` but for your display. ✨
-- [x] Can be used with **any** `display` in @ESPHome. 🌈
+
+> [!TIP]
+> See and share what's on your display. 🦄
+> - [x] Like an `esp32_camera web_server` but for your display. ✨
+> - [x] Can be used with **any** `display` in @ESPHome. 🌈
 <details>
   <summary><code>yaml</code></summary>
 
@@ -393,15 +395,14 @@ screen_server:
 
 ***
 
-#### Disclaimer
 
+> [!NOTE]
+> #### Disclaimer
 > If you find this useful, you can [![uwu](https://img.shields.io/github/sponsors/velijv?logo=githubsponsors&label=sponsor%20🥺%20me&style=flat-square&labelColor=rgba(0,0,0,0)&color=rgba(234,74,170,0.5) "for jsut 1 doolar you can lead a por man to fish")](https://github.com/sponsors/velijv) [![Buy Me a Cofffee](https://img.shields.io/badge/Gift_a_Covfefe-red?logo=buymeacoffee&logoColor=fff&style=flat-square&labelColor=rgba(0,0,1,0)&color=rgba(255,244,1,0.1) "help me replace my blown up devices")](https://www.buymeacoffee.com/velijv) [![PayPal](https://img.shields.io/badge/Tip%20my%20jar-red?logo=paypal&logoColor=fff&style=flat-square&labelColor=rgba(0,156,222,0)&color=rgba(1,33,105,0.1) "Purchase new gadgets to hack for you")](https://paypal.me/velijohan) [![About Sponsoring](https://img.shields.io/badge/Veli_🤝-why_sponsor-red?&logoColor=fff&style=flat-square&labelColor=rgba(124,124,124,0)&color=rgba(124,124,124,0.1) "Read about me and more ways to Sponsor")](https://veli.ee/sponsor)
-
-
-<sub> All product names, logos, and brands are property of their respective owners. All company, product and service names used are for identification purposes only. Use of these names, logos, and brands does not imply endorsement. </sub>
-
-
-[![LILYGO® T-Watch S3 ESPHome © 2024 by Veli-Johan Veromann is licensed under Attribution-NonCommercial-NoDerivatives 4.0 International](https://img.shields.io/badge/Licence-CC--BY--NC--ND%204.0-rgba%280%2C0%2C0%2C0%29?logo=CreativeCommons&logoColor=rgba(231,53,44,1)&labelColor=rgba(231,53,44,0)&style=flat-square&color=rgba(231,53,44,0.1))](https://creativecommons.org/licenses/by-nc/4.0/ "LILYGO® T-Watch S3 ESPHome © 2024 by Veli-Johan Veromann is licensed under Attribution-NonCommercial-NoDerivatives 4.0 International")
+> 
+> *All product names, logos, and brands are property of their respective owners. All company, product and service names used are for identification purposes only. Use of these names, logos, and brands does not imply endorsement. </sub>*
+> 
+> [![LILYGO® T-Watch S3 ESPHome © 2024 by Veli-Johan Veromann is licensed under Attribution-NonCommercial-NoDerivatives 4.0 International](https://img.shields.io/badge/Licence-CC--BY--NC--ND%204.0-rgba%280%2C0%2C0%2C0%29?logo=CreativeCommons&logoColor=rgba(231,53,44,1)&labelColor=rgba(231,53,44,0)&style=flat-square&color=rgba(231,53,44,0.1))](https://creativecommons.org/licenses/by-nc/4.0/ "LILYGO® T-Watch S3 ESPHome © 2024 by Veli-Johan Veromann is licensed under Attribution-NonCommercial-NoDerivatives 4.0 International")
 ![GitHub repo file or directory count](https://img.shields.io/github/directory-file-count/velijv/LILYGO-T-Watch-S3-ESPHome) ![GitHub repo size](https://img.shields.io/github/repo-size/velijv/LILYGO-T-Watch-S3-ESPHome?style=flat-square) ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/velijv/LILYGO-T-Watch-S3-ESPHome)
 
 
