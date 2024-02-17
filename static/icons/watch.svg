@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 300 313">
+  <path fill="url(#a)" fill-rule="evenodd" d="M125 22c-9 0-16 7-16 16v4H89h20c0 11-9 20-20 20h120c-11 0-20-9-20-20v-4c0-9-7-16-16-16h-48Z" clip-rule="evenodd"/>
+  <path fill="url(#b)" fill-rule="evenodd" d="M169 278c11 0 20-9 20-20h20-20c0-11 9-20 20-20H89c11 0 20 9 20 20s9 20 20 20h40Z" clip-rule="evenodd"/>
+  <g filter="url(#c)">
+    <rect width="156" height="180" x="71" y="60" fill="url(#d)" rx="30"/>
+    <rect width="140" height="166" x="79" y="67" fill="#000" rx="30"/>
+    <rect width="110" height="110" x="94" y="95" fill="#1D2126" rx="3"/>
+    <rect width="110" height="110" x="94" y="95" fill="url(#e)" rx="3"/>
+    <path fill="#02BFF5" d="M180 114c-6 2-3 11 3 9s3-11-3-9Zm-31 2-5 4-9 9-14 13-7 8v28c0 2-1 4 1 6l5 1h63c3-1 3-3 3-6v-10c0-6 1-13-1-19-1-3-4-6-7-8l-7-8-2-3-5-3-10-10c-1-1-3-3-5-2Zm23 7c-4 2-1 8 3 7 4-2 1-8-3-7Z"/>
+    <path fill="#fff" d="M133 150c-6 2-5 11 1 10 7-2 5-11-1-10Zm32 0c-6 2-4 11 2 10 6-2 4-11-2-10Zm-27 19v3h24v-6c-2-4-7-6-11-3-2 1-3 5-5 5l-8 1Z"/>
+    <rect width="110" height="110" x="94" y="95" fill="url(#f)" fill-opacity=".2" rx="3"/>
+  </g>
+  <circle cx="180.9" cy="223" r="4" fill="#2E2F31"/>
+  <circle cx="180.9" cy="223" r="2" fill="#fff" fill-opacity=".1"/>
+  <rect width="76" height="10" x="111" y="55" fill="#202020" rx="2"/>
+  <rect width="76" height="10" x="111" y="235" fill="#000" rx="2"/>
+  <ellipse cx="227" cy="103" fill="#404040" rx="2" ry="8"/>
+  <path fill="#202020" d="M223 95h4v16h-4z"/>
+  <ellipse cx="223" cy="103" fill="#202020" rx="2" ry="8"/>
+  <rect width="4" height="40" x="225" y="130" fill="gray" rx="2"/>
+  <defs>
+    <linearGradient id="a" x1="145.5" x2="145.5" y1="22" y2="62" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#404040"/>
+      <stop offset="1" stop-color="#202020"/>
+    </linearGradient>
+    <linearGradient id="b" x1="149" x2="149" y1="278" y2="238" gradientUnits="userSpaceOnUse">
+      <stop/>
+      <stop offset="1" stop-color="#202020"/>
+    </linearGradient>
+    <linearGradient id="d" x1="149" x2="149" y1="60" y2="240" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#404040"/>
+      <stop offset=".5"/>
+      <stop offset="1" stop-color="#202020"/>
+    </linearGradient>
+    <linearGradient id="e" x1="149" x2="149" y1="95" y2="205" gradientUnits="userSpaceOnUse">
+      <stop/>
+      <stop offset="1" stop-color="#1D2126"/>
+    </linearGradient>
+    <linearGradient id="f" x1="204" x2="73.6" y1="95" y2="168.9" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff"/>
+      <stop offset=".5" stop-color="#fff" stop-opacity=".5"/>
+      <stop offset=".5" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="c" width="198" height="257" x="54" y="56" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+      <feOffset dy="3"/>
+      <feGaussianBlur stdDeviation="3.5"/>
+      <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.24 0"/>
+      <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_1413_17570"/>
+      <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+      <feOffset dx="1" dy="13"/>
+      <feGaussianBlur stdDeviation="6.5"/>
+      <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.21 0"/>
+      <feBlend in2="effect1_dropShadow_1413_17570" result="effect2_dropShadow_1413_17570"/>
+      <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+      <feOffset dx="2" dy="29"/>
+      <feGaussianBlur stdDeviation="8.5"/>
+      <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.12 0"/>
+      <feBlend in2="effect2_dropShadow_1413_17570" result="effect3_dropShadow_1413_17570"/>
+      <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+      <feOffset dx="4" dy="52"/>
+      <feGaussianBlur stdDeviation="10.5"/>
+      <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.04 0"/>
+      <feBlend in2="effect3_dropShadow_1413_17570" result="effect4_dropShadow_1413_17570"/>
+      <feBlend in="SourceGraphic" in2="effect4_dropShadow_1413_17570" result="shape"/>
+    </filter>
+  </defs>
+</svg>
