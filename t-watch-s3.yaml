@@ -1,18 +1,25 @@
 # These substitutions allow the end user to override certain values
 substitutions:
+  friendly_name: 'T-Watch S3'
   name: "t-watch-s3"
+  device_name: 'watch'
+  project_base: 'LILYGO®'
+  project_name: 'T-Watch-S3'
+  project_version: 'K222'
+  device_description: 'LILYGO® T-Watch S3 K222 (915MHz LoRa)'
 
 esphome:
-  name: "${name}"
-  # Automatically add the mac address to the name
-  # so you can use a single firmware for all devices
-  name_add_mac_suffix: false
-
+  name: ${device_name}
+  friendly_name: ${friendly_name}
+  comment: ${device_description}
   # This will allow for (future) project identification,
   # configuration and updates.
   project:
-    name: esphome.project-template
-    version: "1.0"
+    name: ${project_base}.${project_name}
+    version: ${project_version}
+  # Automatically add the mac address to the name
+  # so you can use a single firmware for all devices
+  name_add_mac_suffix: false
 
 esp32:
   board: esp32dev
@@ -30,7 +37,7 @@ ota:
 
 # This should point to the public location of this yaml file.
 dashboard_import:
-  package_import_url: github://github/velijv/LILYGO-T-Watch-S3-ESPHome/t-watch-s3.yaml@main
+  package_import_url: github://velijv/LILYGO-T-Watch-S3-ESPHome/t-watch-s3.yaml@main
 
 wifi:
   # Set up a wifi access point using the device name above
@@ -56,3 +63,4 @@ esp32_improv:
 # Sets up the improv via serial client for Wi-Fi provisioning.
 # Handy if your device has a usb port for the user to add credentials when they first get it.
 improv_serial:
+  next_url: https://veli.ee/esphome?device_name={{device_name}}&ip_address={{ip_address}}&esphome_version={{esphome_version}}

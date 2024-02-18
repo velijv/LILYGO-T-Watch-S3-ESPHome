@@ -4,3 +4,5 @@
 /.esphome/
 /secrets.yaml
 .DS_Store
+Gemfile*
+**/.DS_Store

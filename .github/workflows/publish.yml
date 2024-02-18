@@ -12,4 +12,4 @@ jobs:
       # CHANGEME: Set the filenames of your config files here:
       files: t-watch-s3-yaml
       # CHANGEME: Set the name of your project here:
-      name: T-Watch S3
+      name: T-Watch-S3
