@@ -1,0 +1,9 @@
+{
+  "chipFamily": "ESP32",
+  "parts": [
+    {
+      "path": "watch-esp32/watch-esp32.bin",
+      "offset": 0
+    }
+  ]
+}
