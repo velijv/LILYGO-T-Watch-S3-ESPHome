@@ -52,8 +52,8 @@ LILYGO®  T-Watch S3 full feature implementation for ESPHome
 	</thead>
 	<tbody>
 	<tr>
-		<td> <img src="static/icons/tech.svg" alt="T-Watch S3" width=256 width=256> </td>
-		<td> <img src="static/icons/watch.svg" alt="T-Watch S3" height=256 width=256> </td>
+		<td> <img src="static/icons/tech.svg" alt="T-Watch S3" width=256 height=256> </td>
+		<td> <img src="static/icons/watch.svg" alt="T-Watch S3" width=256 height=256> </td>
 		<!--td> <img src="static/icons/branded.svg" alt="T-Watch S3" width=256 width=256> </td-->
 		<td> <img src="static/icons/veli.svg" alt="T-Watch S3" width=256 width=256> </td>
 	</tr>
