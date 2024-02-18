@@ -1,4 +1,6 @@
 <link rel="stylesheet" href="https://veli.ee/esphome/style.css">
+<link rel="stylesheet" href="https://github.githubassets.com/assets/global-9faae9e41f0d.css">
+
 <style>
 	.markdown-body{
 		border:0 !important;
@@ -21,7 +23,7 @@
 	*/
 </style>
 
-# LILYGO® <img alt="LILYGO" src="logos/lilygo-favicon.svg" height="28"> T-Watch S3 <img alt="ESPHome" src="logos/esphome-favicon.svg" height="28">  ESPHome </h1>
+# LILYGO® <img alt="LILYGO" src="logos/lilygo-favicon.svg" height="28">T-Watch S3 <img alt="ESPHome" src="logos/esphome-favicon.svg" height="28">ESPHome </h1>
 
 > [!NOTE]
 >
