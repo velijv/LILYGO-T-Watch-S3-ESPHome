@@ -1,3 +1,4 @@
+/*
 body[a="dark"] {
     filter: invert(1);
 }
@@ -104,6 +105,11 @@ img {
     display: block;
     margin: 0 auto;
 }
+*/
+
+:root {
+  color-scheme: light dark;
+}
 
 
 .markdown-body{
@@ -120,10 +126,7 @@ table{
   display: inline-block;
 }
 
-	/*
-	.markdown-body table tr {
-		border: 0
-	}
+/*
 <link rel="stylesheet" href="https://veli.ee/esphome/style.css">
 	*/
 

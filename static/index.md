@@ -1,8 +1,4 @@
-<link rel="stylesheet" href="../assets/main.css">
-
-* TOC
-{:toc}
-
+<link rel="stylesheet" href="/assets/css/main.css">
 
 # LILYGO® <img alt="LILYGO" src="logos/lilygo-favicon.svg" height="28">T-Watch S3 <img alt="ESPHome" src="logos/esphome-favicon.svg" height="28">ESPHome
 
@@ -10,11 +6,10 @@
 
 ## T-Watch S3
 
-
 <details>
 <summary>About the Device</summary>
 
-<h3> <a href="https://github.com/velijv/LILYGO-T-Watch-S3-ESPHome/static/datasheets">Datasheets</a> </h3>
+### [Datasheets](https://github.com/velijv/LILYGO-T-Watch-S3-ESPHome/static/datasheets)
 
 ### Technical details
 
@@ -95,3 +90,8 @@ You can use the button below to install the pre-built firmware directly to your 
 ***
 
 <iframe src="https://github.com/sponsors/velijv/card" title="Sponsor velijv" height="225" width="600"></iframe>
+
+
+
+* TOC
+{:toc}
