@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="../assets/main.css">
+
 * TOC
 {:toc}
 
@@ -90,5 +92,6 @@ You can use the button below to install the pre-built firmware directly to your 
 )](https://github.com/search?q=lilygo) [![Espressif](https://img.shields.io/badge/ESP32S3%20N16R8V-e7352c.svg?logo=Espressif&logoColor=e7352c&labelColor=rgba(0,0,0,0)&color=rgba(231,53,44,0.1)&style=flat-square
 )](https://github.com/espressif/) [![ESPHome](https://img.shields.io/badge/ESPHome-000?logo=Esphome&logoColor=808080&labelColor=rgba(0,0,0,0)&color=rgba(33,33,33,0.1)&style=flat-square)](https://github.com/esphome/esphome) [![Home Assistant](https://img.shields.io/badge/Home%20Assistant-03A9F4?logo=HomeAssistant&logoColor=1abcf2&labelColor=rgba(0,0,0,0)&color=rgba(26,188,242,0.1)&style=flat-square)](https://my.home-assistant.io/redirect/config_flow_start/?domain=esphome)
 
+***
 
-<iframe src="https://github.com/sponsors/velijv/card" title="Sponsor velijv" height="225" width="600" style="border: 0;"></iframe>
+<iframe src="https://github.com/sponsors/velijv/card" title="Sponsor velijv" height="225" width="600"></iframe>
