@@ -1,4 +1,4 @@
-<!--link rel="stylesheet" href="https://veli.ee/esphome/style.css"-->
+<link rel="stylesheet" href="https://veli.ee/esphome/style.css">
 <style>
 	.markdown-body{
 		border:0 !important;
@@ -10,6 +10,10 @@
 	.markdown-body table td, .markdown-body table th, table td, table th{
 		border:0;
 	}
+	:is(h1, h2, h3, h4, h5, h6) img{
+		display: inline-block;
+	}
+
 	/*
 	.markdown-body table tr {
 		border: 0
@@ -17,10 +21,12 @@
 	*/
 </style>
 
-# LILYGO® <img alt="LILYGO" src="logos/lilygo-favicon.svg" height="28"> T-Watch S3 <img alt="ESPHome" src="logos/esphome-favicon.svg" height="28">  ESPHome
+# LILYGO® <img alt="LILYGO" src="logos/lilygo-favicon.svg" height="28"> T-Watch S3 <img alt="ESPHome" src="logos/esphome-favicon.svg" height="28">  ESPHome </h1>
 
 > [!NOTE]
+>
 > ## T-Watch S3 ESPHome
+>
 > LILYGO®  T-Watch S3 full feature implementation for ESPHome
 
 
@@ -76,6 +82,7 @@
 
 
 > [!TIP]
+>
 > ## Installation
 > You can use the button below to install the pre-built firmware directly to your device via USB from the browser.
 > <esp-web-install-button manifest="./manifest.json"></esp-web-install-button>
