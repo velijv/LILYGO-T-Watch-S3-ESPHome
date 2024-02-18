@@ -1,3 +1,7 @@
+* TOC
+{:toc}
+
+
 # LILYGO® <img alt="LILYGO" src="static/logos/lilygo-favicon.svg" height="28"> T-Watch S3 <img alt="ESPHome" src="static/logos/esphome-favicon.svg" height="28">  ESPHome
 
 LILYGO®  T-Watch S3 full feature implementation for ESPHome
