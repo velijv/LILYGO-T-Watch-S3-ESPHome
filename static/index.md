@@ -1,59 +1,34 @@
-<link rel="stylesheet" href="https://veli.ee/esphome/style.css">
-<link rel="stylesheet" href="https://github.githubassets.com/assets/global-9faae9e41f0d.css">
-
-<style>
-	.markdown-body{
-		border:0 !important;
-	}
-	table{
-		width:100%;
-		display: block;
-	}
-	.markdown-body table td, .markdown-body table th, table td, table th{
-		border:0;
-	}
-	:is(h1, h2, h3, h4, h5, h6) img{
-		display: inline-block;
-	}
-
-	/*
-	.markdown-body table tr {
-		border: 0
-	}
-	*/
-</style>
-
-# LILYGO® <img alt="LILYGO" src="logos/lilygo-favicon.svg" height="28">T-Watch S3 <img alt="ESPHome" src="logos/esphome-favicon.svg" height="28">ESPHome </h1>
-
-> [!NOTE]
->
-> ## T-Watch S3 ESPHome
->
-> LILYGO®  T-Watch S3 full feature implementation for ESPHome
+# LILYGO® <img alt="LILYGO" src="logos/lilygo-favicon.svg" height="28">T-Watch S3 <img alt="ESPHome" src="logos/esphome-favicon.svg" height="28">ESPHome
 
 
-### Specs
+![Watch](images/cover.png "LILYGO® T-Watch S3 ESPHome")
+
+## T-Watch S3
+
 
 <details>
-<summary>Technical details 🧑‍💻 + <a href="static/datasheets">datasheets 📚 </a></summary>
+<summary>About the Device</summary>
 
+### <a href="https://github.com/velijv/LILYGO-T-Watch-S3-ESPHome/static/datasheets">Datasheets</a>
 
-> Espressif Systems ESP32-S3 (revision v0.2) dual-core Tensilica LX7 @ up to 240 MHz with vector instructions for AI acceleration
-> * Bluetooth: BLE V5.0
-> * Multiprotocol Modules SMD Module, ESP32-S3R8, 3.3V,
-> * 8 MB Octal PSRAM Die (OPI)
-> * 16 MB Quad SPI Flash, (QIO) Quad I/O  4 pins used for address & data.
-> * 512KB SRAM
-> * 128-bit data bus and SIMD commands
-> * 384 KB ROM
-> * 16 KB SRAM in RTC
-> * CONNECTOR (OK-22F024-04) - terminal board-to-board connector
+### Technical details
+* Espressif Systems ESP32-S3 (revision v0.2) dual-core Tensilica LX7 @ up to 240 MHz with vector instructions for AI acceleration
+* * Bluetooth: BLE V5.0
+* * Multiprotocol Modules SMD Module, ESP32-S3R8, 3.3V,
+* * 8 MB Octal PSRAM Die (OPI)
+* * 16 MB Quad SPI Flash, (QIO) Quad I/O  4 pins used for address & data.
+* * 512KB SRAM
+* * 128-bit data bus and SIMD commands
+* * 384 KB ROM
+* * 16 KB SRAM in RTC
+* * CONNECTOR (OK-22F024-04) - terminal board-to-board connector
 
 ![Watch](images/t-watch-s3-esp32-s3-lora-transparent.png "T-Watch")
 </details>
 
 
-### Result
+### ESPHome
+> LILYGO® T-Watch S3 full feature implementation for ESPHome
 
 <table>
 	<thead>
@@ -83,27 +58,29 @@
 
 
 
-> [!TIP]
->
-> ## Installation
-> You can use the button below to install the pre-built firmware directly to your device via USB from the browser.
-> <esp-web-install-button manifest="./manifest.json"></esp-web-install-button>
->
-> <script type="module" src="https://unpkg.com/esp-web-tools@9/dist/web/install-button.js?module"></script>
+#### Installation
 
+<blockquote>
 
+You can use the button below to install the pre-built firmware directly to your device via USB from the browser.
 
-> [!IMPORTANT]
->
-> <sub>All product names, logos, and brands are property of their respective owners. All company, product and service names used are for identification purposes only. Use of these names, logos, and brands does not imply endorsement. </sub>
->
-> > To release the full source, I would like to achieve a sponsorship goal.
-> >
-> > [![uwu](https://img.shields.io/github/sponsors/velijv?logo=githubsponsors&label=sponsor%20🥺%20me&style=flat-square&labelColor=rgba(0,0,0,0)&color=rgba(234,74,170,0.5) "for jsut 1 doolar you can lead a por man to fish")](https://github.com/sponsors/velijv) [![Buy Me a Cofffee](https://img.shields.io/badge/Gift%20a%20Covfefe-red?logo=buymeacoffee&logoColor=fff&labelColor=rgba(0,0,0,0)&color=rgba(128,128,1,0.1)&style=flat-square "help me replace my blown up devices")](https://www.buymeacoffee.com/velijv) [![PayPal](https://img.shields.io/badge/Tip%20my%20jar-red?logo=paypal&logoColor=fff&style=flat-square&labelColor=rgba(0,156,222,0)&color=rgba(1,33,105,0.1) "Purchase new gadgets to hack for you")](https://paypal.me/velijohan) [![About Sponsoring](https://img.shields.io/badge/Veli_🤝-why_sponsor-red?&logoColor=fff&style=flat-square&labelColor=rgba(124,124,124,0)&color=rgba(124,124,124,0.1) "Read about me and more ways to Sponsor")](https://veli.ee/sponsor)
->
+<center>
+<esp-web-install-button manifest="./manifest.json"></esp-web-install-button>
+<script type="module" src="https://unpkg.com/esp-web-tools@9/dist/web/install-button.js?module"></script>
+</center>
+
+</blockquote>
 
 ***
 
-[![LILYGO® T-Watch S3 ESPHome © 2024 by Veli-Johan Veromann is licensed under Attribution-NonCommercial-NoDerivatives 4.0 International](https://img.shields.io/badge/Licence-CC--BY--NC--ND%204.0-rgba%280%2C0%2C0%2C0%29?logo=CreativeCommons&logoColor=rgba(231,53,44,1)&labelColor=rgba(231,53,44,0)&style=flat-square&color=rgba(231,53,44,0.1))](https://creativecommons.org/licenses/by-nc/4.0/ "LILYGO® T-Watch S3 ESPHome © 2024 by Veli-Johan Veromann is licensed under Attribution-NonCommercial-NoDerivatives 4.0 International") [![LILYGO®](https://img.shields.io/badge/LILYGO-f5a012.svg?logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCAyNCAyNCI+CiAgPGcgY2xpcC1wYXRoPSJ1cmwoI2EpIj4KICAgIDxwYXRoIGZpbGw9IiNGNUEwMTIiIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0ibTE3LjYuMy0uNi42YzAgLjMtLjMuNC0xIC40LTEgLjEtMS41LjUtMS44IDEuMi0uMi40LS4zLjUtLjYuNGgtMS4xYy0uNiAwLTEtLjEtMS0uMy0uNS0uNS0xLjctLjItMi41LjctLjQuNS0xLjEgMS41LTEuMSAxLjdsLjQuMmMuNC4xLjQuMS4yLjYtLjMuNC0uNC41LTEgLjUtMS4zIDAtMS40IDEtLjIgMSAuNi4xLjYuMS42LjggMCAuNi42IDIuNC45IDIuNGwuNy4zYy42LjUgMS44LjggMi4zLjcuMy0uMS4zIDAgLjMgMXMwIDEtLjQgMWMtLjYgMC0xLjYuNS0yLjIgMUw5IDE1bC0xLjQtLjRhMTEgMTEgMCAwIDAtMi0uNWwtMS44LS4zYy0xLS4yLTEuMi0uNC0xLjMtLjdsLS4yLTIuNi0uMS0yLjljMC0uNiAwLS42LjQtLjguNS0uMS41LS4yLjYtLjcgMC0uNiAwLS42LS41LS44QzIgNSAyIDQuOSAyLjMgMy44Yy4zLTEgLjQtMS45IDAtMS45LS4yIDAtLjQuNS0uNCAxLjJzLS4yLjQtLjYtLjhDLjcuNCAwIC4xIDAgMS43YzAgMSAuNCAyLjMuOSAyLjhsLjQuNS0uNi4zYy0uNS4yLS42LjItLjUuOCAwIC41LjEuNi42LjcuNi4yLjYuMy43IDQgLjEgMy4zIDAgMy4zIDIgMy44LjkuMiAxLjYuNSAxLjcuNmwxLjMuNGMxLjMuMiAyIC40IDEuOC42bC0uMiAxYy0uNCAxLjYuNCAzIDIgMy44bC45LjR2Mi4zaDMuNWwtLjItLjdjLS4zLTEuNC0uMi0xLjUuNy0yYTQgNCAwIDAgMCAyLjEtMi4ybC4yLTFzLjQuMSAxIC42bDEgLjggMS44IDEgMiAxLjNjLjQgMCAuOS0uMy45LS42IDAtLjItMS0xLjItMi4yLTIuNC0yLTItMi41LTIuNS0xLjctMi4xLjYuMy44LjIgMS4yLS41LjYtLjkgMi43LTUuNCAyLjctNS44IDAtLjEtLjItLjQtLjUtLjZsLTQuNC0yYy0uMiAwLS41LjQtLjcuOC0uNiAxLTIuNSA1LjMtMi41IDUuOHMwIC40LS42LjFsLTEuNC0uNC0uOC0uMnYtMWwtLjItMS4xYzAtLjIgMS4yLTEuMiAxLjktMS41LjctLjQgMi0zLjEgMi00LjMtLjEtLjctLjEtLjguNC0xIC4zIDAgLjYtLjIuOC0uNGEyIDIgMCAwIDAgMC0xLjdjLS4xLS4zIDAtLjQuNS0uNy44LS41IDEuMi0xLjEuNy0xLjYtLjMtLjQtMS0uNC0xLjYgMFpNMTIgNS4xdjEuM2MwIDItLjggMi44LTIgMi4zLS44LS4zLTEtLjYtMS0xLjUgMC0xLjMuNy0yLjEgMS4zLTEuNS4zLjMuMyAxLjYgMCAyLjItLjIuNCAwIC43LjQuNi41LS4yLjgtMSAuOC0ydi0xaC0xLjNsLTEtLjEtLjUuN2E0IDQgMCAwIDAtLjMgMi44Yy4yLjcuNC44IDEgLjUuMy0uMS4zLS4xIDAgLjMtLjMuNS0uMy41IDAgLjcgMS4zIDEgMyAuOSA0LjUtLjNsLjUtLjQtLjgtMS41TDEyIDV2LjFabS0xMC43LjcuMy4yYy4xIDAgLjIgMCAuMi4yIDAgLjEtLjEuMi0uMi4xbC0uMi4xLjYuMmMuNSAwIC42IDAgLjYtLjRzLS41LS43LTEtLjdjLS40IDAtLjUgMC0uMy4zWm01LjYuOWMtLjIuMiAwIC40LjYuNC40IDAgLjYtLjEuNi0uMyAwLS4xLS4yLS4yLS42LS4ySDdsLS4xLjFaTTE4LjUgOWMtLjcgMS4zLTIuMiA0LjgtMi4yIDUgMCAuMi4zLjQuOC42IDEgLjQgMSAuNC44LjEgMCAwLS4yLS4yLS4zLS4xLS4yIDAtLjIgMCAwLS40bC4yLS42LS4yLjRjLS4yLjUtLjYuNi0uOC4zIDAtLjIuMy0xLjEuNS0xLjF2LjJjLS4xLjIgMCAuMS43LS4xbC42LS4yLS40LS4xYy0uMyAwLS41LS4yLS41LS4zIDAtLjQuNy0xLjYgMS0xLjYgMCAwIC4yLS4xLjItLjMuMS0uMi4zLS4zLjQtLjIuMi4xLjIuMiAwIC42LS4zLjYtLjQuOS0uMi45bC43LTEuM2MuNC0xIC42LTEuMy44LTEuMi4yIDAgLjMgMCAuNC0uMy4xLS4yLjMtLjIuNC0uMS4yIDAgMCAuNC0uNSAxLjdhMjYgMjYgMCAwIDAtLjggMS43bC4zLjFjLjIgMCAuMiAwIC4xLjNsLS4yLjZjMCAuMy0uMS4zLS42IDBsLS42LS4yLjQuOGMuMSAwIC4yLjEuMS4yIDAgLjUgMCAuNi4zLjMuMS0uMy4yLS40LjMtLjJ2LjVjLS4yLjEtLjIuMy0uMi40bC4yLS4zYy4zLS41LjYtLjYuNi0uM2wtLjMuN2MtLjIuNC0uMy40LS41LjMgMC0uMi0uMi0uMi0uMiAwbC42LjMuMy0uNmMuMS0uMy4zLS41LjQtLjVsLS4yLjYtLjIuN2MuMiAwIDMtNi4xIDMtNi4zbC00LTEuOC0uNy0uMy0uNSAxVjlabTEuNyAxLjN2LjJjLjIgMCAuMy0uMS4zLS4ybC0uMS0uMi0uMi4yWk0yMCAxM2MwIC4xIDAgLjIuMS4xbC4yLS4yaC0uMmMtLjIgMC0uMSAwLS4xLjFabS0zLjQuN2MtLjIuMy0uMi41IDAgLjRsLjItLjctLjIuM1ptLS4xIDEuNC42IDFjLjIuNS40LjggMS4zIDEuM2wyLjMgMS40Yy4yLS4yLTEuNC0xLjgtMS45LTJhLjkuOSAwIDAgMS0uNS0uN2MtLjEtLjQtLjMtLjYtMS0xbC0xLjEtLjVzMCAuMy4zLjVaIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiLz4KICA8L2c+CiAgPGRlZnM+CiAgICA8Y2xpcFBhdGggaWQ9ImEiPgogICAgICA8cGF0aCBmaWxsPSIjZmZmIiBkPSJNMCAwaDI0djI0SDB6Ii8+CiAgICA8L2NsaXBQYXRoPgogIDwvZGVmcz4KPC9zdmc+Cg==&logoColor=fff&labelColor=rgba(0,0,0,0)&color=rgba(245,160,18,0.1)&style=flat-square
+
+## Disclaimer
+> <sub>All product names, logos, and brands are property of their respective owners. All company, product and service names used are for identification purposes only. Use of these names, logos, and brands does not imply endorsement. </sub>
+>
+> To release the full source, I would like to achieve a sponsorship goal.
+>
+> [![uwu](https://img.shields.io/github/sponsors/velijv?logo=githubsponsors&label=sponsor%20🥺%20me&style=flat-square&labelColor=rgba(0,0,0,0)&color=rgba(234,74,170,0.5) "for jsut 1 doolar you can lead a por man to fish")](https://github.com/sponsors/velijv) [![Buy Me a Cofffee](https://img.shields.io/badge/Gift%20a%20Covfefe-red?logo=buymeacoffee&logoColor=fff&labelColor=rgba(0,0,0,0)&color=rgba(128,128,1,0.1)&style=flat-square "help me replace my blown up devices")](https://www.buymeacoffee.com/velijv) [![PayPal](https://img.shields.io/badge/Tip%20my%20jar-red?logo=paypal&logoColor=fff&style=flat-square&labelColor=rgba(0,156,222,0)&color=rgba(1,33,105,0.1) "Purchase new gadgets to hack for you")](https://paypal.me/velijohan) [![About Sponsoring](https://img.shields.io/badge/Veli_🤝-why_sponsor-red?&logoColor=fff&style=flat-square&labelColor=rgba(124,124,124,0)&color=rgba(124,124,124,0.1) "Read about me and more ways to Sponsor")](https://veli.ee/sponsor)
+>
+> [![LILYGO® T-Watch S3 ESPHome © 2024 by Veli-Johan Veromann is licensed under Attribution-NonCommercial-NoDerivatives 4.0 International](https://img.shields.io/badge/Licence-CC--BY--NC--ND%204.0-rgba%280%2C0%2C0%2C0%29?logo=CreativeCommons&logoColor=rgba(231,53,44,1)&labelColor=rgba(231,53,44,0)&style=flat-square&color=rgba(231,53,44,0.1))](https://creativecommons.org/licenses/by-nc/4.0/ "LILYGO® T-Watch S3 ESPHome © 2024 by Veli-Johan Veromann is licensed under Attribution-NonCommercial-NoDerivatives 4.0 International") [![LILYGO®](https://img.shields.io/badge/LILYGO-f5a012.svg?logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCAyNCAyNCI+CiAgPGcgY2xpcC1wYXRoPSJ1cmwoI2EpIj4KICAgIDxwYXRoIGZpbGw9IiNGNUEwMTIiIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0ibTE3LjYuMy0uNi42YzAgLjMtLjMuNC0xIC40LTEgLjEtMS41LjUtMS44IDEuMi0uMi40LS4zLjUtLjYuNGgtMS4xYy0uNiAwLTEtLjEtMS0uMy0uNS0uNS0xLjctLjItMi41LjctLjQuNS0xLjEgMS41LTEuMSAxLjdsLjQuMmMuNC4xLjQuMS4yLjYtLjMuNC0uNC41LTEgLjUtMS4zIDAtMS40IDEtLjIgMSAuNi4xLjYuMS42LjggMCAuNi42IDIuNC45IDIuNGwuNy4zYy42LjUgMS44LjggMi4zLjcuMy0uMS4zIDAgLjMgMXMwIDEtLjQgMWMtLjYgMC0xLjYuNS0yLjIgMUw5IDE1bC0xLjQtLjRhMTEgMTEgMCAwIDAtMi0uNWwtMS44LS4zYy0xLS4yLTEuMi0uNC0xLjMtLjdsLS4yLTIuNi0uMS0yLjljMC0uNiAwLS42LjQtLjguNS0uMS41LS4yLjYtLjcgMC0uNiAwLS42LS41LS44QzIgNSAyIDQuOSAyLjMgMy44Yy4zLTEgLjQtMS45IDAtMS45LS4yIDAtLjQuNS0uNCAxLjJzLS4yLjQtLjYtLjhDLjcuNCAwIC4xIDAgMS43YzAgMSAuNCAyLjMuOSAyLjhsLjQuNS0uNi4zYy0uNS4yLS42LjItLjUuOCAwIC41LjEuNi42LjcuNi4yLjYuMy43IDQgLjEgMy4zIDAgMy4zIDIgMy44LjkuMiAxLjYuNSAxLjcuNmwxLjMuNGMxLjMuMiAyIC40IDEuOC42bC0uMiAxYy0uNCAxLjYuNCAzIDIgMy44bC45LjR2Mi4zaDMuNWwtLjItLjdjLS4zLTEuNC0uMi0xLjUuNy0yYTQgNCAwIDAgMCAyLjEtMi4ybC4yLTFzLjQuMSAxIC42bDEgLjggMS44IDEgMiAxLjNjLjQgMCAuOS0uMy45LS42IDAtLjItMS0xLjItMi4yLTIuNC0yLTItMi41LTIuNS0xLjctMi4xLjYuMy44LjIgMS4yLS41LjYtLjkgMi43LTUuNCAyLjctNS44IDAtLjEtLjItLjQtLjUtLjZsLTQuNC0yYy0uMiAwLS41LjQtLjcuOC0uNiAxLTIuNSA1LjMtMi41IDUuOHMwIC40LS42LjFsLTEuNC0uNC0uOC0uMnYtMWwtLjItMS4xYzAtLjIgMS4yLTEuMiAxLjktMS41LjctLjQgMi0zLjEgMi00LjMtLjEtLjctLjEtLjguNC0xIC4zIDAgLjYtLjIuOC0uNGEyIDIgMCAwIDAgMC0xLjdjLS4xLS4zIDAtLjQuNS0uNy44LS41IDEuMi0xLjEuNy0xLjYtLjMtLjQtMS0uNC0xLjYgMFpNMTIgNS4xdjEuM2MwIDItLjggMi44LTIgMi4zLS44LS4zLTEtLjYtMS0xLjUgMC0xLjMuNy0yLjEgMS4zLTEuNS4zLjMuMyAxLjYgMCAyLjItLjIuNCAwIC43LjQuNi41LS4yLjgtMSAuOC0ydi0xaC0xLjNsLTEtLjEtLjUuN2E0IDQgMCAwIDAtLjMgMi44Yy4yLjcuNC44IDEgLjUuMy0uMS4zLS4xIDAgLjMtLjMuNS0uMy41IDAgLjcgMS4zIDEgMyAuOSA0LjUtLjNsLjUtLjQtLjgtMS41TDEyIDV2LjFabS0xMC43LjcuMy4yYy4xIDAgLjIgMCAuMi4yIDAgLjEtLjEuMi0uMi4xbC0uMi4xLjYuMmMuNSAwIC42IDAgLjYtLjRzLS41LS43LTEtLjdjLS40IDAtLjUgMC0uMy4zWm01LjYuOWMtLjIuMiAwIC40LjYuNC40IDAgLjYtLjEuNi0uMyAwLS4xLS4yLS4yLS42LS4ySDdsLS4xLjFaTTE4LjUgOWMtLjcgMS4zLTIuMiA0LjgtMi4yIDUgMCAuMi4zLjQuOC42IDEgLjQgMSAuNC44LjEgMCAwLS4yLS4yLS4zLS4xLS4yIDAtLjIgMCAwLS40bC4yLS42LS4yLjRjLS4yLjUtLjYuNi0uOC4zIDAtLjIuMy0xLjEuNS0xLjF2LjJjLS4xLjIgMCAuMS43LS4xbC42LS4yLS40LS4xYy0uMyAwLS41LS4yLS41LS4zIDAtLjQuNy0xLjYgMS0xLjYgMCAwIC4yLS4xLjItLjMuMS0uMi4zLS4zLjQtLjIuMi4xLjIuMiAwIC42LS4zLjYtLjQuOS0uMi45bC43LTEuM2MuNC0xIC42LTEuMy44LTEuMi4yIDAgLjMgMCAuNC0uMy4xLS4yLjMtLjIuNC0uMS4yIDAgMCAuNC0uNSAxLjdhMjYgMjYgMCAwIDAtLjggMS43bC4zLjFjLjIgMCAuMiAwIC4xLjNsLS4yLjZjMCAuMy0uMS4zLS42IDBsLS42LS4yLjQuOGMuMSAwIC4yLjEuMS4yIDAgLjUgMCAuNi4zLjMuMS0uMy4yLS40LjMtLjJ2LjVjLS4yLjEtLjIuMy0uMi40bC4yLS4zYy4zLS41LjYtLjYuNi0uM2wtLjMuN2MtLjIuNC0uMy40LS41LjMgMC0uMi0uMi0uMi0uMiAwbC42LjMuMy0uNmMuMS0uMy4zLS41LjQtLjVsLS4yLjYtLjIuN2MuMiAwIDMtNi4xIDMtNi4zbC00LTEuOC0uNy0uMy0uNSAxVjlabTEuNyAxLjN2LjJjLjIgMCAuMy0uMS4zLS4ybC0uMS0uMi0uMi4yWk0yMCAxM2MwIC4xIDAgLjIuMS4xbC4yLS4yaC0uMmMtLjIgMC0uMSAwLS4xLjFabS0zLjQuN2MtLjIuMy0uMi41IDAgLjRsLjItLjctLjIuM1ptLS4xIDEuNC42IDFjLjIuNS40LjggMS4zIDEuM2wyLjMgMS40Yy4yLS4yLTEuNC0xLjgtMS45LTJhLjkuOSAwIDAgMS0uNS0uN2MtLjEtLjQtLjMtLjYtMS0xbC0xLjEtLjVzMCAuMy4zLjVaIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiLz4KICA8L2c+CiAgPGRlZnM+CiAgICA8Y2xpcFBhdGggaWQ9ImEiPgogICAgICA8cGF0aCBmaWxsPSIjZmZmIiBkPSJNMCAwaDI0djI0SDB6Ii8+CiAgICA8L2NsaXBQYXRoPgogIDwvZGVmcz4KPC9zdmc+Cg==&logoColor=fff&labelColor=rgba(0,0,0,0)&color=rgba(245,160,18,0.1)&style=flat-square
 )](https://github.com/search?q=lilygo) [![Espressif](https://img.shields.io/badge/ESP32S3%20N16R8V-e7352c.svg?logo=Espressif&logoColor=e7352c&labelColor=rgba(0,0,0,0)&color=rgba(231,53,44,0.1)&style=flat-square
 )](https://github.com/espressif/) [![ESPHome](https://img.shields.io/badge/ESPHome-000?logo=Esphome&logoColor=808080&labelColor=rgba(0,0,0,0)&color=rgba(33,33,33,0.1)&style=flat-square)](https://github.com/esphome/esphome) [![Home Assistant](https://img.shields.io/badge/Home%20Assistant-03A9F4?logo=HomeAssistant&logoColor=1abcf2&labelColor=rgba(0,0,0,0)&color=rgba(26,188,242,0.1)&style=flat-square)](https://my.home-assistant.io/redirect/config_flow_start/?domain=esphome)
