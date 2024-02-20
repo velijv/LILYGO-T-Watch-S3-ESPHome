@@ -370,16 +370,14 @@ drv2605:
 <table>
 	<thead>
 		<tr>
-			<th>Header</th>
+			<th>Global Header</th>
 			<th>Menu</th>
-			<th>Submenu</th>
 			<th>Improv</th>
 		</tr>
 	</thead>
 	<tbody>
 	<tr>
 		<td><img alt="Home & Global Header" src="static/screen_server/index.bmp" width=240></td>
-		<td><img alt="Graphical Display Menu" src="static/screen_server/menu.bmp" width=240></td>
 		<td><img alt="Graphical Display Menu" src="static/screen_server/menu-open.bmp" width=240></td>
 		<td><img alt="Bluetooth / Improv / Access Point" src="static/screen_server/improv.bmp" width=240></td>
 	</tr>
@@ -389,13 +387,47 @@ drv2605:
 ### Watch faces
 
 <table>
+  <thead>
+    <tr>
+      <th>Basic</th>
+      <th>Watch Hands</th>
+      <th>Image as Face</th>
+      <th>Color by time</th>
+    </tr>
+  </thead>
 <tbody>
 	<tr>
 		<td><img alt="" src="static/screen_server/watch.bmp" width=256></td>
-		<td><img alt="" src="static/screen_server/watch-color.bmp" width=256></td>
+		<td><img alt="" src="static/screen_server/watch-face-new.bmp" width=256></td>
 		<td><img alt="" src="static/screen_server/watch-face.bmp" width=256></td>
+    <td><img alt="" src="static/screen_server/watch-face-dynamic.bmp" width=256></td>
 	</tr>
 </tbody>
+</table>
+
+### Navigation
+
+- [x] 4 + 4 Swipe Gestures (up, down, left, right) + diagonal
+- [x] `graphical_display_menu`
+- [x] configured `touchscreen` `binary_sensor` grids to toggle `switch`, press `button` etc.
+
+<table>
+  <thead>
+    <tr>
+      <th>Menu</th>
+      <th>Grid in use</th>
+      <th>3x3 Grid</th>
+      <th>4x4 Grid</th>
+    </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td><img alt="Graphical Display Menu" src="static/screen_server/menu.bmp" width=240></td>
+    <td><img alt="" src="static/screen_server/sensors.bmp"></td>
+    <td><img alt="Color test" src="static/screen_server/test-color.bmp" width=256></td>
+    <td><img alt="Grid test" src="static/screen_server/test-grid.bmp" width=256></td>
+  </tr>
+  </tbody>
 </table>
 
 ***
@@ -428,7 +460,7 @@ screen_server:
 	<tr>
 		<td><img alt="online_image" src="static/screen_server/image-online.bmp" width=256></td>
 		<td><img alt="Spotify Albym Art" src="static/screen_server/image-spotify.bmp" width=256></td>
-		<td><img alt="Color test" src="static/screen_server/test-color.bmp" width=256></td>
+		<td><img alt="Color test" src="static/screen_server/test-error.bmp" width=256></td>
 	</tr>
 	</tbody>
 </table>

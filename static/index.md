@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="assets/css/main.css">
 
 # LILYGO® <img alt="LILYGO" src="logos/lilygo-favicon.svg" height="28">T-Watch S3 <img alt="ESPHome" src="logos/esphome-favicon.svg" height="28">ESPHome
 

@@ -1,8 +1,8 @@
 title: T-Watch S3
 description: LILYGO® T-Watch S3 full feature implementation for ESPHome
-theme: jekyll-theme-minima
 #theme: jekyll-theme-slate
-#remote_theme: riggraz/no-style-please
+#theme: jekyll-theme-slate
+remote_theme: riggraz/no-style-please
 plugins:
 - jekyll-remote-theme
 - jekyll-default-layout
