@@ -480,8 +480,9 @@ screen_server:
 
 
 > [!NOTE]
->
 > <sub>All product names, logos, and brands are property of their respective owners. All company, product and service names used are for identification purposes only. Use of these names, logos, and brands does not imply endorsement. </sub>
+> 
+> > *"Anyway, regardless of your opinion on people getting paid for their work, or holding open source code hostage (depending on your perspective)"* 😅
 > 
 > > To release the full source, I would like to achieve a sponsorship goal.
 > >
